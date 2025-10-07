@@ -464,7 +464,7 @@ const Projects: React.FC = () => {
                               <FaEye size={16} />
                             </motion.button>
                             <motion.a
-                              href={project.demo}
+                             //{project.demo}
                               target="_blank"
                               rel="noopener noreferrer"
                               whileHover={{ scale: 1.1 }}
@@ -720,7 +720,7 @@ const Projects: React.FC = () => {
                 {/* Action Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
-                    href={selectedProject.demo}
+                    //href={selectedProject.demo}
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
