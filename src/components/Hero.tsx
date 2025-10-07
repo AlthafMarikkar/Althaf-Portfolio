@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaArrowDown, FaDownload, FaEnvelope } from 'react-icons/fa';
 import profileImg from '../assets/profilepic.jpg';
-import cvPdf from '../assets/Althaf CV.pdf';
+import cvPdf from '../assets/Althaf Resume.pdf';
 import AnimatedText from './AnimatedText';
 import { fadeIn, staggerContainer, scaleIn } from '../types/animations';
 
